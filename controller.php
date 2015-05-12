@@ -34,7 +34,6 @@ class Controller extends Package
         $plugin->setName(t('Alert'));
         $plugin->requireAsset('editor/plugin/ec_alert');
         Core::make('editor')->getPluginManager()->register($plugin);
-        Core::make('editor')->getPluginManager()->select($plugin->getKey());
     }
 
     public function registerAssets()
