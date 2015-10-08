@@ -1,13 +1,10 @@
 <?php
-
 namespace Concrete\Package\EcRedactorPluginSample;
 
 use AssetList;
 use Concrete\Core\Editor\Plugin;
 use Concrete\Core\Package\Package;
 use Core;
-
-defined('C5_EXECUTE') or die(_("Access Denied."));
 
 class Controller extends Package
 {
